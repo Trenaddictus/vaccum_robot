@@ -1,0 +1,27 @@
+[0.479s] Invoking command in '/home/user/dev_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/user/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/user/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/user/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/dev_ws/build/serial_motor_demo/build --no-deps symlink_data
+[0.644s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.644s]   warnings.warn(
+[0.675s] running develop
+[0.797s] running egg_info
+[0.798s] creating serial_motor_demo.egg-info
+[0.798s] writing serial_motor_demo.egg-info/PKG-INFO
+[0.798s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[0.798s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[0.798s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[0.798s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[0.798s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.799s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.800s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.801s] running build_ext
+[0.801s] Creating /home/user/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[0.802s] Installing driver script to /home/user/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.802s] Installing gui script to /home/user/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.803s] 
+[0.803s] Installed /home/user/dev_ws/build/serial_motor_demo
+[0.803s] running symlink_data
+[0.803s] creating /home/user/dev_ws/install/serial_motor_demo/share/ament_index
+[0.803s] creating /home/user/dev_ws/install/serial_motor_demo/share/ament_index/resource_index
+[0.803s] creating /home/user/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.803s] symbolically linking /home/user/dev_ws/build/serial_motor_demo/resource/serial_motor_demo -> /home/user/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.803s] symbolically linking /home/user/dev_ws/build/serial_motor_demo/package.xml -> /home/user/dev_ws/install/serial_motor_demo/share/serial_motor_demo
+[0.820s] Invoked command in '/home/user/dev_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/user/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/user/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/dev_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/user/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/dev_ws/build/serial_motor_demo/build --no-deps symlink_data

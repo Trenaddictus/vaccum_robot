@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/user/dev_ws/build/vacuum_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/dev_ws/src/vacuum_robot -DCMAKE_INSTALL_PREFIX=/home/user/dev_ws/install/vacuum_robot
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.086s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.140s] -- Detecting C compiler ABI info - done
+[0.146s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.146s] -- Detecting C compile features
+[0.147s] -- Detecting C compile features - done
+[0.149s] -- Detecting CXX compiler ABI info
+[0.226s] -- Detecting CXX compiler ABI info - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.235s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.345s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.405s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.451s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.451s]   ament_package_xml() package name 'vacuum_robot' in '/package.xml' does not
+[0.451s]   match current PROJECT_NAME 'my_bot'.  You must call project() with the same
+[0.451s]   package name before.
+[0.451s] Call Stack (most recent call first):
+[0.452s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.452s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.452s] 
+[0.452s] [0m
+[0.452s] -- Configuring incomplete, errors occurred!
+[0.452s] See also "/home/user/dev_ws/build/vacuum_robot/CMakeFiles/CMakeOutput.log".
+[0.455s] Invoked command in '/home/user/dev_ws/build/vacuum_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/dev_ws/src/vacuum_robot -DCMAKE_INSTALL_PREFIX=/home/user/dev_ws/install/vacuum_robot
