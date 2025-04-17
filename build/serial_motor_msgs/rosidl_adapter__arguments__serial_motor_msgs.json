@@ -1,0 +1,8 @@
+{
+  "package_name": "serial_motor_msgs",
+  "non_idl_tuples": [
+    "/home/user/vacuum_robot_ws/src/serial_motor_control/serial_motor_msgs:msg/MotorCommand.msg",
+    "/home/user/vacuum_robot_ws/src/serial_motor_control/serial_motor_msgs:msg/MotorVels.msg",
+    "/home/user/vacuum_robot_ws/src/serial_motor_control/serial_motor_msgs:msg/EncoderVals.msg"
+  ]
+}

@@ -1,6 +1,0 @@
-Invoking command in '/home/user/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dev_ws/install/serial_motor_demo_msgs
-Invoked command in '/home/user/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dev_ws/install/serial_motor_demo_msgs
-Invoking command in '/home/user/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/dev_ws/build/serial_motor_demo_msgs -- -j12 -l12
-Invoked command in '/home/user/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/dev_ws/build/serial_motor_demo_msgs -- -j12 -l12
-Invoking command in '/home/user/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/dev_ws/build/serial_motor_demo_msgs
-Invoked command in '/home/user/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/dev_ws/build/serial_motor_demo_msgs

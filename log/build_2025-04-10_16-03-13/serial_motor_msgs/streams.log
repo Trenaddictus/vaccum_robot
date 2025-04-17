@@ -1,0 +1,286 @@
+[0.012s] Invoking command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/vacuum_robot_ws/src/serial_motor_control/serial_motor_msgs -DCMAKE_INSTALL_PREFIX=/home/user/vacuum_robot_ws/install/serial_motor_msgs
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.537s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.611s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.894s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.299s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.300s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.323s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.323s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.323s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.350s] -- Found PythonExtra: .so  
+[1.392s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.393s] -- Added test 'lint_cmake' to check CMake code style
+[1.395s] -- Added test 'xmllint' to check XML markup files
+[1.400s] -- Configuring done
+[1.429s] -- Generating done
+[1.439s] -- Build files have been written to: /home/user/vacuum_robot_ws/build/serial_motor_msgs
+[1.444s] Invoked command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/vacuum_robot_ws/src/serial_motor_control/serial_motor_msgs -DCMAKE_INSTALL_PREFIX=/home/user/vacuum_robot_ws/install/serial_motor_msgs
+[1.445s] Invoking command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/vacuum_robot_ws/build/serial_motor_msgs -- -j12 -l12
+[1.476s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.485s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.492s] [  4%] Built target ament_cmake_python_copy_serial_motor_msgs
+[1.732s] running egg_info
+[1.733s] creating serial_motor_msgs.egg-info
+[1.733s] writing serial_motor_msgs.egg-info/PKG-INFO
+[1.733s] writing dependency_links to serial_motor_msgs.egg-info/dependency_links.txt
+[1.734s] writing top-level names to serial_motor_msgs.egg-info/top_level.txt
+[1.734s] writing manifest file 'serial_motor_msgs.egg-info/SOURCES.txt'
+[1.736s] reading manifest file 'serial_motor_msgs.egg-info/SOURCES.txt'
+[1.737s] writing manifest file 'serial_motor_msgs.egg-info/SOURCES.txt'
+[1.760s] [  4%] Built target ament_cmake_python_build_serial_motor_msgs_egg
+[1.853s] [  4%] Built target serial_motor_msgs__cpp
+[1.863s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.863s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.863s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.873s] [ 17%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_msgs/msg/detail/motor_vels__functions.c.o[0m
+[1.873s] [ 17%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_msgs/msg/detail/motor_command__functions.c.o[0m
+[1.873s] [ 17%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_msgs/msg/detail/encoder_vals__functions.c.o[0m
+[1.920s] [ 19%] [32m[1mLinking C shared library libserial_motor_msgs__rosidl_generator_c.so[0m
+[1.955s] [ 19%] Built target serial_motor_msgs__rosidl_generator_c
+[1.964s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.965s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.965s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.184s] [ 27%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_msgs/msg/motor_command__type_support.cpp.o[0m
+[2.187s] [ 31%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[2.188s] [ 31%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_msgs/msg/motor_vels__type_support.cpp.o[0m
+[2.223s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/motor_command__type_support.cpp.o[0m
+[2.223s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/encoder_vals__type_support.cpp.o[0m
+[2.223s] [ 38%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_msgs/msg/detail/motor_vels__type_support.cpp.o[0m
+[2.313s] [ 40%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o[0m
+[2.313s] [ 42%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o[0m
+[2.317s] [ 44%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[2.355s] [ 46%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_msgs/msg/motor_command__type_support.cpp.o[0m
+[2.462s] [ 48%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_msgs/msg/motor_vels__type_support.cpp.o[0m
+[2.493s] [ 51%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_msgs/msg/detail/motor_command__type_support.c.o[0m
+[2.516s] [ 53%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_msgs/msg/detail/motor_command__type_support_c.cpp.o[0m
+[2.535s] [ 55%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_msgs/msg/encoder_vals__type_support.cpp.o[0m
+[2.566s] [ 57%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_msgs/msg/detail/motor_vels__type_support.c.o[0m
+[2.598s] [ 59%] [32m[1mLinking CXX shared library libserial_motor_msgs__rosidl_typesupport_c.so[0m
+[2.680s] [ 61%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_msgs/msg/detail/encoder_vals__type_support.c.o[0m
+[2.715s] [ 63%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_msgs/msg/detail/motor_vels__type_support_c.cpp.o[0m
+[2.724s] [ 63%] Built target serial_motor_msgs__rosidl_typesupport_c
+[2.744s] [ 65%] [32mBuilding CXX object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_msgs/msg/detail/encoder_vals__type_support_c.cpp.o[0m
+[2.775s] [ 68%] [32m[1mLinking C shared library libserial_motor_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.792s] [ 70%] [32m[1mLinking CXX shared library libserial_motor_msgs__rosidl_typesupport_cpp.so[0m
+[2.827s] [ 70%] Built target serial_motor_msgs__rosidl_typesupport_introspection_c
+[2.868s] [ 70%] Built target serial_motor_msgs__rosidl_typesupport_cpp
+[2.940s] [ 72%] [32m[1mLinking CXX shared library libserial_motor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.985s] [ 72%] Built target serial_motor_msgs__rosidl_typesupport_introspection_cpp
+[3.079s] [ 74%] [32m[1mLinking CXX shared library libserial_motor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.166s] [ 74%] Built target serial_motor_msgs__rosidl_typesupport_fastrtps_cpp
+[3.239s] [ 76%] [32m[1mLinking CXX shared library libserial_motor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.309s] [ 76%] Built target serial_motor_msgs__rosidl_typesupport_fastrtps_c
+[3.327s] [ 76%] Built target serial_motor_msgs
+[3.345s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.782s] [ 78%] Built target serial_motor_msgs__py
+[3.798s] [ 85%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_msgs/msg/_motor_vels_s.c.o[0m
+[3.798s] [ 85%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_msgs/msg/_motor_command_s.c.o[0m
+[3.799s] [ 85%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_generator_py.dir/rosidl_generator_py/serial_motor_msgs/msg/_encoder_vals_s.c.o[0m
+[3.895s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_msgs/libserial_motor_msgs__rosidl_generator_py.so[0m
+[3.927s] [ 87%] Built target serial_motor_msgs__rosidl_generator_py
+[3.945s] [ 93%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.945s] [ 93%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.945s] [ 93%] [32mBuilding C object CMakeFiles/serial_motor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.040s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.040s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.044s] [100%] [32m[1mLinking C shared library rosidl_generator_py/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.072s] [100%] Built target serial_motor_msgs__rosidl_typesupport_introspection_c__pyext
+[4.072s] [100%] Built target serial_motor_msgs__rosidl_typesupport_c__pyext
+[4.076s] [100%] Built target serial_motor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.087s] Invoked command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/vacuum_robot_ws/build/serial_motor_msgs -- -j12 -l12
+[4.089s] Invoking command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/vacuum_robot_ws/build/serial_motor_msgs
+[4.096s] -- Install configuration: ""
+[4.097s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_msgs
+[4.097s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[4.097s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[4.097s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/motor_command.h
+[4.097s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[4.097s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__functions.h
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__struct.h
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__functions.c
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__functions.h
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__struct.h
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__type_support.h
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__functions.c
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__functions.c
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__functions.h
+[4.098s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__type_support.h
+[4.099s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__struct.h
+[4.099s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__type_support.h
+[4.099s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.099s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/motor_vels.h
+[4.099s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/encoder_vals.h
+[4.099s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/library_path.sh
+[4.099s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/library_path.dsv
+[4.100s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_generator_c.so
+[4.100s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_generator_c.so" to ""
+[4.100s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[4.100s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[4.100s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.100s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[4.100s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[4.101s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[4.101s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[4.101s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_fastrtps_c.so
+[4.101s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.101s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[4.101s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[4.102s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[4.102s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[4.102s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__type_support.c
+[4.102s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__type_support.c
+[4.102s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[4.102s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[4.102s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__type_support.c
+[4.103s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.103s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_introspection_c.so
+[4.103s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.103s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_c.so
+[4.103s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_c.so" to ""
+[4.103s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[4.103s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[4.104s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/motor_vels.hpp
+[4.104s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/motor_command.hpp
+[4.104s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[4.104s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__builder.hpp
+[4.104s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__traits.hpp
+[4.104s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__type_support.hpp
+[4.104s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__traits.hpp
+[4.105s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__type_support.hpp
+[4.105s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__type_support.hpp
+[4.105s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__struct.hpp
+[4.105s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__builder.hpp
+[4.105s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__struct.hpp
+[4.105s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__struct.hpp
+[4.105s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__traits.hpp
+[4.106s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__builder.hpp
+[4.106s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/encoder_vals.hpp
+[4.106s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.106s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[4.106s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[4.106s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[4.106s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/dds_fastrtps
+[4.107s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.107s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[4.107s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[4.107s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.107s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.107s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.107s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs
+[4.107s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg
+[4.108s] -- Up-to-date: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail
+[4.108s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__type_support.cpp
+[4.108s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[4.108s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__type_support.cpp
+[4.108s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[4.108s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[4.109s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/include/serial_motor_msgs/serial_motor_msgs/msg/detail/encoder_vals__type_support.cpp
+[4.109s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_introspection_cpp.so
+[4.109s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.109s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_cpp.so
+[4.109s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_typesupport_cpp.so" to ""
+[4.109s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/pythonpath.sh
+[4.109s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/pythonpath.dsv
+[4.109s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info
+[4.109s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.109s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.110s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.110s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.110s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs
+[4.110s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg
+[4.110s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_encoder_vals_s.c
+[4.110s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_vels.py
+[4.110s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_encoder_vals.py
+[4.110s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/__init__.py
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_command.py
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_vels_s.c
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_command_s.c
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_c.c
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/__init__.py
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/libserial_motor_msgs__rosidl_generator_py.so
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/_serial_motor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.111s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.146s] Listing '/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs'...
+[4.146s] Compiling '/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/__init__.py'...
+[4.146s] Listing '/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg'...
+[4.146s] Compiling '/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/__init__.py'...
+[4.146s] Compiling '/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_encoder_vals.py'...
+[4.146s] Compiling '/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_command.py'...
+[4.147s] Compiling '/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/msg/_motor_vels.py'...
+[4.151s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.151s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.152s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.152s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.152s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.152s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/local/lib/python3.10/dist-packages/serial_motor_msgs/serial_motor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.153s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_generator_py.so
+[4.153s] -- Set runtime path of "/home/user/vacuum_robot_ws/install/serial_motor_msgs/lib/libserial_motor_msgs__rosidl_generator_py.so" to ""
+[4.153s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/MotorCommand.idl
+[4.153s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/MotorVels.idl
+[4.154s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/EncoderVals.idl
+[4.154s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/MotorCommand.msg
+[4.154s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/MotorVels.msg
+[4.154s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/msg/EncoderVals.msg
+[4.154s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_msgs
+[4.154s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_msgs
+[4.155s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/ament_prefix_path.sh
+[4.155s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/ament_prefix_path.dsv
+[4.155s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/path.sh
+[4.155s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/environment/path.dsv
+[4.155s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/local_setup.bash
+[4.155s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/local_setup.sh
+[4.155s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/local_setup.zsh
+[4.156s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/local_setup.dsv
+[4.156s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/package.dsv
+[4.156s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/ament_index/resource_index/packages/serial_motor_msgs
+[4.156s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_cExport.cmake
+[4.156s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.156s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.156s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.156s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.157s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.157s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_cExport.cmake
+[4.157s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.157s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_cppExport.cmake
+[4.158s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.158s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.158s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.158s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.158s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_cppExport.cmake
+[4.159s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.159s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_pyExport.cmake
+[4.159s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/export_serial_motor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.159s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/rosidl_cmake-extras.cmake
+[4.159s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.159s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.159s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.159s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.160s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.160s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.160s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgsConfig.cmake
+[4.160s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/cmake/serial_motor_msgsConfig-version.cmake
+[4.160s] -- Installing: /home/user/vacuum_robot_ws/install/serial_motor_msgs/share/serial_motor_msgs/package.xml
+[4.163s] Invoked command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/vacuum_robot_ws/build/serial_motor_msgs

@@ -1,0 +1,6 @@
+Invoking command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/vacuum_robot_ws/src/serial_motor_control/serial_motor_msgs -DCMAKE_INSTALL_PREFIX=/home/user/vacuum_robot_ws/install/serial_motor_msgs
+Invoked command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/vacuum_robot_ws/src/serial_motor_control/serial_motor_msgs -DCMAKE_INSTALL_PREFIX=/home/user/vacuum_robot_ws/install/serial_motor_msgs
+Invoking command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/vacuum_robot_ws/build/serial_motor_msgs -- -j12 -l12
+Invoked command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/vacuum_robot_ws/build/serial_motor_msgs -- -j12 -l12
+Invoking command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/vacuum_robot_ws/build/serial_motor_msgs
+Invoked command in '/home/user/vacuum_robot_ws/build/serial_motor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/vacuum_robot_ws/build/serial_motor_msgs
