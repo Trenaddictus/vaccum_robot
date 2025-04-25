@@ -1,3 +1,9 @@
 build/
 install/
 log/
+
+# Ignore compiled Python files and Vim swap files
+*.pyc
+*.swp
+
+*.json

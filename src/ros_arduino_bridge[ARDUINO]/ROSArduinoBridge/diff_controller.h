@@ -34,9 +34,9 @@ SetPointInfo leftPID, rightPID;
 
 /* PID Parameters */
 int Kp = 20;
-int Kd = 12;
-int Ki = 0;
 int Ko = 50;
+int Kd = 0;
+int Ki = 0;
 
 unsigned char moving = 0; // is the base in motion?
 
@@ -80,9 +80,8 @@ void doPID(SetPointInfo * p) {
   * see http://brettbeauregard.com/blog/2011/04/improving-the-beginner%E2%80%99s-pid-derivative-kick/
   * see http://brettbeauregard.com/blog/2011/04/improving-the-beginner%E2%80%99s-pid-tuning-changes/
   */
-  //output = (Kp * Perror + Kd * (Perror - p->PrevErr) + Ki * p->Ierror) / Ko;
-  // p->PrevErr = Perror;
-  output = (Kp * Perror - Kd * (input - p->PrevInput) + p->ITerm) / Ko;
+
+  output = (Kp * Perror) / Ko;
   p->PrevEnc = p->Encoder;
 
   output += p->output;
@@ -92,11 +91,6 @@ void doPID(SetPointInfo * p) {
     output = MAX_PWM;
   else if (output <= -MAX_PWM)
     output = -MAX_PWM;
-  else
-  /*
-  * allow turning changes, see http://brettbeauregard.com/blog/2011/04/improving-the-beginner%E2%80%99s-pid-tuning-changes/
-  */
-    p->ITerm += Ki * Perror;
 
   p->output = output;
   p->PrevInput = input;
@@ -127,4 +121,3 @@ void updatePID() {
   /* Set the motor speeds accordingly */
   setMotorSpeeds(leftPID.output, rightPID.output);
 }
-
