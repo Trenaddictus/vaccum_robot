@@ -122,7 +122,7 @@ def generate_launch_description():
     return LaunchDescription([
         rsp,
         delayed_waypoint,
-        #joystick,
+        joystick,
         twist_mux,
         delayed_controller_manager,
         delayed_diff_drive_spawner,

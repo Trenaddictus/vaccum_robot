@@ -46,7 +46,8 @@ class TrajectoryGenerator(Node):
         
         # Get the robot's orientation (quaternion to euler conversion)
         orientation = msg.pose.pose.orientation
-        _, _, self.current_theta = self.quaternion_to_euler(orientation.x, orientation.y, orientation.z, orientation.w)
+        _, _, yaw = self.quaternion_to_euler(orientation.x, orientation.y, orientation.z, orientation.w)
+        self.current_theta = (yaw) % (2 * math.pi)
 
     def quaternion_to_euler(self, x, y, z, w):
         """Convert quaternion to Euler angles (roll, pitch, yaw)"""
@@ -98,12 +99,12 @@ class TrajectoryGenerator(Node):
             self.turn_towards_waypoint(angular_velocity)
         else:
             # Once the robot is facing the target, move towards it
-            if distance < 0.1:
+            if distance < 0.02:
                 # Stop at the waypoint
                 self.get_logger().info(f"Arrived at waypoint: ({target_x}, {target_y})")
                 self.stop_at_waypoint()
             else:
-                self.move_towards_waypoint(distance)
+                self.move_towards_waypoint(distance,angular_velocity)
 
         # Log the robot's current coordinates after each step
         self.get_logger().info(f"Current Position: x={self.current_x:.2f}, y={self.current_y:.2f}, theta={self.current_theta:.2f} (radians)")
@@ -111,14 +112,23 @@ class TrajectoryGenerator(Node):
     def turn_towards_waypoint(self, angular_velocity):
         """Turn the robot towards the target waypoint"""
         twist = Twist()
-        twist.angular.z = angular_velocity  # Only turn
+        min_angvel=0.1
+        max_angvel=1
+        angular_velocity=max(min(angular_velocity,max_angvel),-max_angvel)
+        if abs(angular_velocity)<min_angvel:
+            angular_velocity=min_angvel if angular_velocity>0 else -min_angvel
+        twist.angular.z =float(angular_velocity)  # Only turn
         self.cmd_vel_pub.publish(twist)
         self.get_logger().info(f"Turning towards waypoint: angular_velocity={angular_velocity:.2f}")
 
-    def move_towards_waypoint(self, distance):
+    def move_towards_waypoint(self, distance,angular_velocity):
         """Move the robot towards the target waypoint"""
         twist = Twist()
-        twist.linear.x = 0.5 * distance  # Move forward
+        speed=0.5*distance
+        min_speed=0.1
+        max_speed=0.5
+        twist.linear.x = float(max(min(speed,max_speed),min_speed))  # Move forward
+        twist.angular.z = float(angular_velocity)
         self.cmd_vel_pub.publish(twist)
         self.get_logger().info(f"Moving towards waypoint: distance={distance:.2f}")
 

@@ -1,6 +1,7 @@
 build/
 install/
 log/
+bag_files/
 
 # Ignore compiled Python files and Vim swap files
 *.pyc
