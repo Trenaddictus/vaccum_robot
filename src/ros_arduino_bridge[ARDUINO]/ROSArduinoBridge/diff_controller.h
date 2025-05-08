@@ -1,7 +1,7 @@
 /* Functions and type-defs for PID control.
 
    Taken mostly from Mike Ferguson's ArbotiX code which lives at:
-   
+
    http://vanadium-ros-pkg.googlecode.com/svn/trunk/arbotix/
 */
 
@@ -33,7 +33,7 @@ SetPointInfo;
 SetPointInfo leftPID, rightPID;
 
 /* PID Parameters */
-int Kp = 20;
+int Kp = 50;
 int Ko = 50;
 int Kd = 0;
 int Ki = 0;
@@ -101,7 +101,7 @@ void updatePID() {
   /* Read the encoders */
   leftPID.Encoder = readEncoder(LEFT);
   rightPID.Encoder = readEncoder(RIGHT);
-  
+
   /* If we're not moving there is nothing more to do */
   if (!moving){
     /*
