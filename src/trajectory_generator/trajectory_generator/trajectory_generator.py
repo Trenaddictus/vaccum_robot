@@ -33,11 +33,14 @@ class TrajectoryGenerator(Node):
         self.current_x = 0
         self.current_y = 0
         self.current_theta = 0  # Orientation
+
+        #Constant that makes the turning more tuned
+        self.kvalue = 1
         
         # State to track if robot is stopped
         self.is_stopped = False
         
-        self.create_timer(0.1, self.control_loop)  # Control loop every 0.1 seconds
+        self.create_timer(0.01, self.control_loop)  # Control loop every 0.01 seconds
 
     def odom_callback(self, msg):
         # Extract robot's current position and orientation from the odometry message
@@ -95,16 +98,19 @@ class TrajectoryGenerator(Node):
         angular_velocity = self.normalize_angle(angle_to_target - self.current_theta)
         
         # If the robot is not facing the waypoint, turn to face it
-        if abs(angular_velocity) > 0.3:  # If the angle difference is large enough to require turning
+        if abs(angular_velocity) > math.pi*5/180*self.kvalue:  # If the angle difference is large enough to require turning
             self.turn_towards_waypoint(angular_velocity)
+            self.kvalue = 1
         else:
             # Once the robot is facing the target, move towards it
             if distance < 0.02:
                 # Stop at the waypoint
                 self.get_logger().info(f"Arrived at waypoint: ({target_x}, {target_y})")
                 self.stop_at_waypoint()
+                self.kvalue = 1
             else:
                 self.move_towards_waypoint(distance,angular_velocity)
+                self.kvalue = 3 
 
         # Log the robot's current coordinates after each step
         self.get_logger().info(f"Current Position: x={self.current_x:.2f}, y={self.current_y:.2f}, theta={self.current_theta:.2f} (radians)")
@@ -144,8 +150,12 @@ class TrajectoryGenerator(Node):
         if is_absolute:
             return checkpoint  # Absolute coordinate (x, y)
         else:
-            # Add relative coordinates to the current position (dx, dy)
-            return checkpoint
+            dx, dy =  checkpoint
+            target_x=self.current_x+dx
+            target_y=self.current_y+dy
+            self.checkpoints[self.current_checkpoint_idx] = (target_x, target_y)
+            self.is_absolute[self.current_checkpoint_idx] = True
+            return (target_x, target_y)
         
     def normalize_angle(self, angle):
         """Normalize the angle to be between -pi and pi"""
@@ -178,7 +188,7 @@ class TrajectoryGenerator(Node):
                 self.is_absolute.append(True)
                 self.get_logger().info(f"Added absolute waypoint: ({x}, {y})")
             elif wp_type == "relative":
-                self.checkpoints.append((self.checkpoints[-1][0]+x, self.checkpoints[-1][1]+y))
+                self.checkpoints.append((x, y))
                 self.is_absolute.append(False)
                 self.get_logger().info(f"Added relative waypoint: ({x}, {y})")
             else:

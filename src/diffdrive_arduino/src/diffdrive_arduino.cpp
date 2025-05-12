@@ -77,8 +77,16 @@ CallbackReturn DiffDriveArduino::on_activate(const rclcpp_lifecycle::State & /* 
   RCLCPP_INFO(logger_, "Starting Controller...");
   arduino_.sendEmptyMsg();
   // arduino.setPidValues(9,7,0,100);
-  // arduino.setPidValues(14,7,0,100);
-  arduino_.setPidValues(20, 0, 0, 50);
+  //arduino.setPidValues(14,7,0,100);
+  //arduino_.setPidValues(5, 0, 0, 10);
+  //arduino_.setPidValues(1, 0, 0, 1);
+  //arduino_.setPidValues(5, 0, 0, 1);
+  //arduino_.setPidValues(10, 0, 0, 1);
+  //arduino_.setPidValues(20, 0, 0, 1);
+  //arduino_.setPidValues(1, 1, 0, 1);
+  //arduino_.setPidValues(1, 5, 0, 1);
+  //arduino_.setPidValues(1, 10, 0, 1);
+  arduino_.setPidValues(20, 5, 0, 1);
 
   return CallbackReturn::SUCCESS;
 }
